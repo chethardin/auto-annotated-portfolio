@@ -30,7 +30,7 @@ sections:
           - ml-0
           - mr-0
         padding:
-          - pt-36
+          - pt-9
           - pb-48
           - pl-4
           - pr-4
@@ -84,7 +84,7 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-end
-    subtitle: 'Projects'
+    subtitle: Projects
   - type: FeaturedPostsSection
     elementId: ''
     colors: colors-f
