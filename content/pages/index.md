@@ -34,7 +34,7 @@ sections:
           - pb-20
           - pl-4
           - pr-4
-        alignItems: flex-end
+        alignItems: center
         justifyContent: flex-end
         flexDirection: row-reverse
       title:
