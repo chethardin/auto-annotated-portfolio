@@ -345,6 +345,44 @@ sections:
         justifyContent: center
         borderWidth: 1
         borderStyle: solid
+  - type: FeaturedProjectsSection
+    subtitle: Projects
+    actions:
+      - type: Link
+        label: See all projects
+        url: /projects
+    projects:
+      - content/pages/projects/project-two.md
+      - content/pages/projects/project-three.md
+      - content/pages/projects/project-one.md
+    colors: colors-f
+    variant: variant-b
+    elementId: ''
+    showDate: false
+    showDescription: true
+    showFeaturedImage: true
+    showReadMoreLink: true
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-24
+          - pb-24
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      actions:
+        justifyContent: flex-end
   - type: ContactSection
     backgroundSize: full
     title: "Let’s talk... \U0001F4AC"
